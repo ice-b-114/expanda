@@ -91,7 +91,7 @@ if(panda_filefrom>panda_filefinl){alert(panda_lang_8);return;};
 document.getElementById('panda_filefrom').title=panda_filefrom;
 document.getElementById('panda_filefinl').title=panda_filefinl;
 var panda_pageconf=document.getElementsByClassName('ths');
-var panda_pageqnty=50;
+var panda_pageqnty=40;
 var panda_pagefrom=Math.ceil(panda_filefrom/panda_pageqnty);
 var panda_pagefinl=Math.ceil(panda_filefinl/panda_pageqnty);
 var panda_hashmaps={};
